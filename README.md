@@ -1,5 +1,5 @@
 # Project 
-This project is built with Django and React.js
+This project is built with Django and React.js and SQLite3(File already present in the repo) 
 
 ## Getting Started
 
@@ -7,7 +7,9 @@ This project is built with Django and React.js
 Follow the steps
 ### `cd backend`
 ### `pip install -r requirements.txt`
-### `python manage.py runserve`
+### `python manage.py runserver`
+
+The server started at [http://localhost:8000](http://localhost:8000)
 
 This turns on the backend, to test if we're getting the responses use the below command
 
@@ -28,3 +30,5 @@ start the application
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+Once the Page is up Type any of the following in the search Menu Bengaluru,London,Delhi and click on the search Button
